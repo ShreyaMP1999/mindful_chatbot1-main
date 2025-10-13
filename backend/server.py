@@ -177,11 +177,11 @@ def analyze_sentiment(text: str) -> Dict[str, Any]:
     # Additional emotional state detection
     emotional_state = "neutral"
     if compound <= -0.5:
-        emotional_state = "very_negative"
+        emotional_state = "very negative"
     elif compound <= -0.2:
         emotional_state = "negative" 
     elif compound >= 0.5:
-        emotional_state = "very_positive"
+        emotional_state = "very positive"
     elif compound >= 0.2:
         emotional_state = "positive"
     
