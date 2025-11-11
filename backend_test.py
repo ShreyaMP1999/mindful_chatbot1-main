@@ -25,7 +25,7 @@ class MentalHealthChatbotTester:
             print(f"❌ {test_name} - FAILED: {details}")
             self.errors.append(f"{test_name}: {details}")
         
-        if details:
+        # if details:
             print(f"   Details: {details}")
 
     def make_request(self, method, endpoint, data=None, expected_status=200):
