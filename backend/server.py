@@ -17,8 +17,8 @@ import re
 import json
 from collections import defaultdict
 
-ROOT_DIR = Path(__file__).parent
-load_dotenv(ROOT_DIR / '.env')
+# ROOT_DIR = Path(__file__).parent
+# load_dotenv(ROOT_DIR / '.env')
 
 # Initialize OpenAI client
 openai.api_key = os.environ['OPENAI_API_KEY']
