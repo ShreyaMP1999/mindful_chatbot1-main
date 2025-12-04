@@ -13,7 +13,7 @@ import uuid
 from datetime import datetime, timezone, timedelta
 import openai
 from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
-import re
+# import re
 import json
 from collections import defaultdict
 
