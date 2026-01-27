@@ -72,7 +72,7 @@ MENTAL_HEALTH_RESOURCES = {
         {
             "name": "International Association for Suicide Prevention",
             "website": "https://www.iasp.info/resources/Crisis_Centres/",
-            "description": "Global crisis centers directory"
+            # "description": "Global crisis centers directory"
         }
     ],
     "general": [
